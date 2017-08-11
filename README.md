@@ -16,10 +16,16 @@ PersonID = "53269"
 PersonName = "Einstein"
 ```
 Get the ancestors
-```MG.find_ancestors(PersonID,PersonName)
+```
+MG.find_ancestors(PersonID,PersonName)
 ```
 ## Result
+Code above will result the following graph
 ![Albert Einstein](53269.png)
+
+## Features to be added
+* Search PersonID
+* Find descendants
 
 ## License
 GNU Affero General Public License v3.0
