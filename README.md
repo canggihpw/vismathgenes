@@ -3,14 +3,17 @@ Visualize the ancestor of people described in https://www.genealogy.math.ndsu.no
 
 ## Usage
 Import the class
-```from MathGenealogy import MathGenealogy
+```
+from MathGenealogy import MathGenealogy
 ```
 Create instance
-```MG = MathGenealogy()
+```
+MG = MathGenealogy()
 ```
 Put the person you are looking for. The PersonID can be retrieved in https://www.genealogy.math.ndsu.nodak.edu. For the next feature, I will making this more convenient.
-```PersonID = "53269"
-PersonName = "Albert Einstein"
+```
+PersonID = "53269"
+PersonName = "Einstein"
 ```
 Get the ancestors
 ```MG.find_ancestors(PersonID,PersonName)
