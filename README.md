@@ -21,6 +21,7 @@ MG.find_ancestors(PersonID,PersonName)
 ```
 ## Result
 Code above will result the following graph
+
 ![Albert Einstein](53269.png)
 
 ## Features to be added
